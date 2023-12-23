@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.99f1a800.css",
-    "main.js": "/static/js/main.bfa6b068.js",
-    "index.html": "/index.html",
-    "static/media/blob-haikei.svg": "/static/media/blob-haikei.6c341b8a2d655d962e8c.svg",
-    "main.99f1a800.css.map": "/static/css/main.99f1a800.css.map",
-    "main.bfa6b068.js.map": "/static/js/main.bfa6b068.js.map"
+    "main.css": "/adhishrajan.github.io/static/css/main.87d3b6df.css",
+    "main.js": "/adhishrajan.github.io/static/js/main.df8d54f3.js",
+    "index.html": "/adhishrajan.github.io/index.html",
+    "static/media/blob-haikei.svg": "/adhishrajan.github.io/static/media/blob-haikei.6c341b8a2d655d962e8c.svg",
+    "main.87d3b6df.css.map": "/adhishrajan.github.io/static/css/main.87d3b6df.css.map",
+    "main.df8d54f3.js.map": "/adhishrajan.github.io/static/js/main.df8d54f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.99f1a800.css",
-    "static/js/main.bfa6b068.js"
+    "static/css/main.87d3b6df.css",
+    "static/js/main.df8d54f3.js"
   ]
 }
