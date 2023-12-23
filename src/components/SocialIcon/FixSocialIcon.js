@@ -19,9 +19,9 @@ const SocialContainer = styled.div`
 
   a {
     font-size: 2.3rem;
-    color: rgb(119, 119, 121);
+    color: rgb(28, 28, 28);
     &:hover {
-      color: rgb(57, 134, 250);
+      color: #ffffff;
     }
   }
 
@@ -41,7 +41,7 @@ const SocialContainer = styled.div`
       font-size: 2.5rem;
       color: #151418;
       &:hover {
-        color: rgb(57, 134, 250);
+        color: #ffffff;
       }
     }
 
@@ -58,7 +58,7 @@ function FixSocialIcon() {
         <ul>
           <li className="item">
             <a
-              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              href="https://www.linkedin.com/in/adhishrajan"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,7 +67,7 @@ function FixSocialIcon() {
           </li>
           <li className="item">
             <a
-              href="https://github.com/salesp07"
+              href="https://github.com/adhishrajan"
               target="_blank"
               rel="noopener noreferrer"
             >

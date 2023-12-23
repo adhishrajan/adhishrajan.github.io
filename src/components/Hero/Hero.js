@@ -32,55 +32,33 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Pedro.',
+                  'Welcome, I\'m Adhish',
                   () => setShowSubtitle(true)
                 ]}
-                speed={{ type: "keyStrokeDelayInMs", value: 150 }}
+                speed={{ type: "keyStrokeDelayInMs", value: 80 }}
                 wrapper="h1"
                 repeat={0}
               />
-              {showSubtitle &&
+                {showSubtitle &&
                 <TypeAnimation
                   cursor={true}
                   sequence={[
                     500,
-                    'A Full-Stack Developer.',
+                    'A Computer Science student at Georgia Tech.',
                     1000,
-                    'A BCIT graduate.',
-                    // 'I design and code beautifully simple things, and I love what I do.',
+                    'I love solving problems!',
                     1000,
-                    'A problem solver.',
+                    'I love fintech!',
                     1000,
-                    'An innovative thinker.',
+                    'I love NLP!',
                     1000,
-                    'A....',
+                    'I love Machine Learning!',
                     1000,
-                    'A.... cool guy?',
+                    'I love Deep Learning!',
                     1000,
-                    "Ok...",
-                    1000,
-                    "Ok...  I'm running out of ideas...",
-                    1000,
-                    "Uhh...",
-                    1000,
-                    "Uhh... you can scroll down to see my projects now...",
+                    "Scroll Down!",
                     300,
                     () => setShowScrollDown(true),
-                    1000,
-                    "Seriously, my projects are really cool, go check them out!",
-                    1000,
-                    "You're uh...",
-                    1000,
-                    "You're uh... still here?",
-                    1000,
-                    "Ok, this has been fun, but I'm gonna restart the loop now...",
-                    // 1000,
-                    // "Or...",
-                    // 1000,
-                    // "Or... I could scroll you by force! Muahaha!",
-                    1000,
-                    "See ya! :)",
-                    500,
                   ]}
                   speed={50}
                   deletionSpeed={65}
@@ -94,8 +72,8 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/man-svgrepo-com.svg"
-                alt="man-svgrepo"
+                src="/adhish.png"
+                alt="yellow-jacket"
               />
             </ScrollAnimation>
           </HeroRight>

@@ -6,17 +6,16 @@ const Header = ({ toggle }) => {
     <div className="Container" style={{padding: 0}}>
       <Nav>
         <Logo to="/">
-          <img
-            src="/logo.png"
-            alt="logo"
-          />
         </Logo>
         <NavMenu>
-          <NavLink className="menu-item" to="projects">
-            Projects
-          </NavLink>
           <NavLink className="menu-item" to="about">
             About
+          </NavLink>
+          <NavLink className="menu-item" to="research">
+            Research
+          </NavLink>
+          <NavLink className="menu-item" to="projects">
+            Projects
           </NavLink>
           <NavLink className="menu-item" to="contact">
             Contact
@@ -24,8 +23,8 @@ const Header = ({ toggle }) => {
         </NavMenu>
         <NavBtn>
           <a
-            className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
+            className="btn SecondaryBtn"
+            href="https://linkedin.com/in/adhishrajan"
             target="_blank"
             rel="noopener noreferrer"
           >

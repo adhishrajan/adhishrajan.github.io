@@ -78,21 +78,28 @@ function Dropdown({ isOpen, toggle }) {
         <NavLink
           onClick={toggle}
           className="menu-item"
+          to="research"
+        >
+          Research
+        </NavLink>
+        <NavLink
+          onClick={toggle}
+          className="menu-item"
           to="contact"
         >
           Contact
         </NavLink>
       </NavMenu>
-      <NavBtn onClick={toggle}>
+      /* <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
+          href="https://linkedin.com/in/adhishrajan"
           target="_blank"
           rel="noopener noreferrer"
         >
           Resume
         </a>
-      </NavBtn>
+      </NavBtn> */
     </SiderBar>
   );
 }
