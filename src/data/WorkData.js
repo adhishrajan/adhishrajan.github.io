@@ -2,16 +2,16 @@
 export const WorkList = [
     {
       img: "/unnamed.png",
-      title: "Livegage AI - Fintech",
+      title: "livegage.ai - Fintech",
       description:
         "Software Engineer Intern"
     },
-    {
-      img: "/Barclays-logo.png",
-      title: "Barclays",
-      description:
-        "Software Engineer Intern",
-    },
+    // {
+    //   img: "/Barclays-logo.png",
+    //   title: "Barclays",
+    //   description:
+    //     "Software Engineer Intern",
+    // },
   ];
   
 
